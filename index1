@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmCare - Круглосуточная аптека для всей семьи</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Логотип */
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo-icon {
+            font-size: 3em;
+            margin-right: 15px;
+        }
+        
+        .logo-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: white;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c8a4a 0%, #34a853 100%);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .slogan {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        
+        /* Остальные стили остаются без изменений */
+        .hero {
+            background: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.8em;
+            color: #2c8a4a;
+            margin-bottom: 30px;
+        }
+        
+        /* ... остальной CSS код без изменений ... */
+    </style>
+</head>
+<body>
+    <!-- Header with Logo and Slogan -->
+    <header class="header">
+        <div class="container">
+            <!-- НОВЫЙ ЛОГОТИП -->
+            <div class="logo">
+                <div class="logo-icon">🏥</div>
+                <div class="logo-text">FarmCare</div>
+            </div>
+            
+            <div class="slogan">FarmCare — Ваша надежная аптека для всей семьи!</div>
+            <div class="tagline">Аптека 24/7 для здоровья семьи</div>
+        </div>
+    </header>
+
+    <!-- Остальной HTML код без изменений -->
+    <section class="hero">
+        <div class="container">
+            <h1>Круглосуточная аптека «FarmCare» уже открыта в вашем районе!</h1>
+            <!-- ... остальной контент ... -->
+        </div>
+    </section>
+</body>
+</html>
