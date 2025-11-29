@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmCare - Круглосуточная аптека для всей семьи</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c8a4a 0%, #34a853 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .slogan {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5em;
+            color: #2c8a4a;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #c0392b;
+        }
+        
+        /* Features */
+        .features {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            color: #2c8a4a;
+            margin-bottom: 20px;
+        }
+        
+        .feature-card h3 {
+            color: #2c8a4a;
+            margin-bottom: 15px;
+        }
+        
+        /* Products */
+        .products {
+            padding: 60px 0;
+            background: white;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .product-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2c8a4a;
+        }
+        
+        .product-category h4 {
+            color: #2c8a4a;
+            margin-bottom: 10px;
+        }
+        
+        /* Contact */
+        .contact {
+            padding: 60px 0;
+            background: #2c8a4a;
+            color: white;
+            text-align: center;
+        }
+        
+        .contact-info {
+            font-size: 1.3em;
+            margin: 20px 0;
+        }
+        
+        .phone {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .echo-phrase {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-top: 40px;
+            opacity: 0.9;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Slogan -->
+    <header class="header">
+        <div class="container">
+            <div class="slogan">FarmCare — Ваша надежная аптека для всей семьи!</div>
+            <div class="tagline">Аптека 24/7 для здоровья семьи</div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Headline -->
+    <section class="hero">
+        <div class="container">
+            <h1>Круглосуточная аптека «FarmCare» уже открыта в вашем районе!</h1>
+            <p>Живете в новом микрорайоне и устали искать аптеку поздно вечером или рано утром? Теперь у вас есть надежное место, где вас ждут круглосуточно. «FarmCare» — это не просто аптека, это уверенность в том, что здоровье вашей семьи под защитой 24/7.</p>
+            <a href="#contact" class="cta-button">Узнать адрес и телефон</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center; color: #2c8a4a; margin-bottom: 40px;">Почему выбирают нас?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Круглосуточный режим</h3>
+                    <p>Единственная аптека в районе, работающая 24/7. Всегда готовы помочь, даже ночью.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📍</div>
+                    <h3>Удобное расположение</h3>
+                    <p>На первом этаже жилого дома, на пути к метро и остановкам общественного транспорта.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛒</div>
+                    <h3>Широкий ассортимент</h3>
+                    <p>Не только лекарства, но и товары для здорового образа жизни, детское питание, косметика.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍⚕️</div>
+                    <h3>Профессиональные консультации</h3>
+                    <p>Квалифицированные провизоры помогут подобрать нужные препараты и ответят на все вопросы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2 style="text-align: center; color: #2c8a4a; margin-bottom: 40px;">Наш ассортимент</h2>
+            <div class="products-grid">
+                <div class="product-category">
+                    <h4>💊 Рецептурные препараты</h4>
+                    <p>Антибиотики, гормональные препараты, сильнодействующие лекарственные средства</p>
+                </div>
+                <div class="product-category">
+                    <h4>🆘 Безрецептурные препараты</h4>
+                    <p>Обезболивающие, средства от аллергии, препараты от простуды и гриппа</p>
+                </div>
+                <div class="product-category">
+                    <h4>🌿 Парафармацевтика</h4>
+                    <p>БАДы, витамины, лечебная косметика, детское питание, средства гигиены</p>
+                </div>
+                <div class="product-category">
+                    <h4>🏥 Медицинские изделия</h4>
+                    <p>Ортопедические товары, бинты, вата, шприцы, средства реабилитации</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <div class="phone">8 (XXX) XXX-XX-XX</div>
+                <p>📍 Адрес: ул. Примерная, д. 123 (новый жилой микрорайон)</p>
+                <p>🌐 Сайт: www.farmcare.ru</p>
+                <p>⏰ Режим работы: КРУГЛОСУТОЧНО, без выходных</p>
+            </div>
+            <div class="echo-phrase">
+                FarmCare — всегда рядом, когда вы нуждаетесь в заботе!
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Аптека «FarmCare». Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
